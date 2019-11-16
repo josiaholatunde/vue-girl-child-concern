@@ -15,7 +15,7 @@
               <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                 <h3 class="text-white">What We do</h3>
                 <p class="text-muted p-90">
-                    GCC’s set objectives are met through strategic projects
+                    GRI’s set objectives are met through strategic projects
                 </p>
               </div>
               <div class="highlight container p-unique">
