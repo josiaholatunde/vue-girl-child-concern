@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from './components/Home.vue'
 import Blog from './views/Blog.vue'
 import Leadership from './views/Leadership.vue'
+import OurStory from './views/OurStory.vue'
 import ContactUs from './views/ContactUs.vue'
 
 
@@ -25,7 +26,7 @@ const routes = [
     },
     {
         path: '/our-story',
-        component: Leadership
+        component: OurStory
     },
     {
         path: '/contact-us',

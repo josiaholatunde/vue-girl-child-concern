@@ -3,7 +3,7 @@
        <div class="container px-0">
             <router-link class="navbar-brand" to='/'>
                 <img src="../assets/img/images.png" class="img-fluid" height="30" width="30" />
-                Girl Child Concerns
+                Global Relief Initiative 
             </router-link>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

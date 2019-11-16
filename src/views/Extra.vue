@@ -22,7 +22,7 @@
             <div class="col-md-6 text-sm-center">
                 <div>
                   <h3>Become A Volunteer</h3>
-                  <p class="font-italic"> You can contribute your time, skills and knowledge through volunteering with GCC. This is an opportunity to create a positive impact. </p>
+                  <p class="font-italic"> You can contribute your time, skills and knowledge through volunteering with GRI. This is an opportunity to create a positive impact. </p>
                 </div>
         
             </div>
@@ -36,7 +36,7 @@
         <div class="container p-3 h-100 d-flex align-items-center flex-column justify-content-center">
           <h4 class="text-center text-primary display-4">Blog</h4>
           <div class="row">
-            <div class="col-md-4 col-sm-6 ">
+            <div class="col-lg-4 col-md-6 col-sm-6 ">
               <div class="card card-height">
                 <div class="card-body py-5">
                   <div class="card-title text-primary">
@@ -52,7 +52,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="card card-height">
                     <div class="card-body py-5">
                       <div class="card-title text-primary">
@@ -68,7 +68,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-md-4 col-sm-6 mt-sm-5 mt-md-0">
+            <div class="col-lg-4 col-md-6 col-sm-6 mt-sm-5 mt-md-0">
                 <div class="card card-height">
                     <div class="card-body py-5">
                       <div class="card-title text-primary">

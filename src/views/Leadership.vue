@@ -9,8 +9,7 @@
       <section id="show-case" class="p-5">
           <div class="container">
               <p>
-                    GCC leaders believe in using education as a weapon to help change the social & economic trajectory of Nigeria and Africa at large. They believe that with access to education, financial services, and skills training, people, most especially girls can have that chance.             
-                </p>
+                GRI leaders believe in using livelihood intervention as a weapon to help change the social & economic trajectory of affected Nigerians and Africa at large. We believe that with access to health and nutrition services, food availability, clean water, financial stability, skills acquisition and continuous sensitization, our community will be a better place.                </p>
                 <div class="border-md-bottom text-center"></div>
             <main class="mt-5"> 
                 <div class="row">

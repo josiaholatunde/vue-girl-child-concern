@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang='scss'>
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 
@@ -177,7 +177,7 @@ body {
 #donate {
     height: 20rem;
     width: 100%;
-    margin-top: 54rem;
+    margin-top: 61rem;
 }
 
 .btn-white {
@@ -328,27 +328,12 @@ body {
     text-align: center;
     margin: 2rem auto;
 }
-#mission {
-    height: 15rem;
-}
+
 .bg-maroon {
     background: #eaeaea;
 
 }
 
-#objectives {
-    height: 25rem;
-}
-#objectives div {
-    line-height: 2;
-}
-#advisory-board {
-    height: 30rem;
-}
-.advisory-img-container {
-    height: 15rem;
-    width: 15rem;
-}
 
 
 /* Media Query */
@@ -405,9 +390,16 @@ body {
 }
 
 @media only screen and (max-width: 68rem) {
+    #what-we-do {
+        height: 60rem !important;
+    }
+    
+}
+
+@media only screen and (max-width: 53rem) {
     .navbar-nav a {
         padding: 1rem 0.5rem !important;
-        font-size: .5rem;
+        font-size: .7rem;
     }
     #navbar .nav-link {
         padding: .5rem 0;
@@ -419,16 +411,64 @@ body {
         width: 5rem !important;
         margin-right: 0 !important;
     }
+    .highlight {
+        width: 90% !important;
+    }
+    #blog {
+        .container {
+            padding: 0 !important;
+        }
+    }
+     #what-we-do .highlight {
+        height: 70rem !important;
+    }
+    #past-event .container {
+        padding: 0 !important;
+    }
+    #past-event .img-con {
+        height: 20rem !important;
+    }
+    #donate {
+        margin-top: 87rem !important;
+         .btn-white {
+             width: 30% !important;
+         }
+    }
     
 }
 
 @media only screen and (max-width: 48rem) {
+    .navbar-nav a {
+        font-size: .7rem !important;
+    }
+    #blog {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 2rem;
+
+        h4 {
+            font-size: 2rem;
+        }
+    }
+
+    #blog .container {
+        padding: 0 !important;
+    }
     #what-we-do .highlight {
-        width: 90%;
-        height: 68rem;
+        width: 90%  !important;
+        height: 73rem !important;;
+    }
+    .carousel-caption h5 {
+        font-size: 3rem !important;
+    }
+    .img-container, #show-case-slider {
+        height: 30rem !important;
+    }
+    #what-we-do {
+        height: 60rem;
     }
     #donate {
-        margin-top: 85rem;
+        margin-top: 90rem;
     }
     #donate div {
         padding: 0 4rem;
@@ -464,28 +504,53 @@ body {
 
 }
 
-@media only screen and (max-width: 35rem) {
+@media only screen and (max-width: 36rem) {
     #what-we-do {
         height: 55rem;
     }
+    .p-unique {
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+    }
+    #what-we-do .highlight {
+        height: 78rem !important;
+    }
     #donate {
-        margin-top: 109rem;
+        margin-top: 99rem !important;
+        .btn-white {
+            width: 55%;
+        }
     }
-    #partners {
-        height: 137rem;
+
+    .show-case-btn {
+        padding: 1rem !important;
     }
+
+    .carousel-caption h5 {
+        font-size: 2rem !important;
+        line-height: 1.4;
+    }
+ 
     #show-case-slider ,#show-case-slider .img-container {
         height: 30rem !important;
     }
-    #donate .btn-white {
-        width: 45%;
+    
+    #volunteer .container {
+        padding: 0 2rem;
+        text-align: center;
     }
-    #what-we-do .highlight {
-        width: 90%;
-        height: 93rem;
+
+    #partners {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        height: 110rem;
+
+        .container p {
+            margin-top: 1rem !important;
+        }
     }
     #partners .logo-container {
-        height: 7rem;
+        height: 5rem;
         margin-bottom: 2.3rem;
     } 
     #partners .logo-container img {
@@ -495,13 +560,65 @@ body {
     }
     #past-event .img-con {
         width: 90%;
+        h4 {
+            font-size: 1.5rem !important;
+        }
     }
     #past-event .container {
-        padding: 0 2rem;
+        padding: 0 0rem;
+    }
+    #blog {
+        .card-height {
+            height: 18rem !important;
+        }
     }
     #blog .card {
-        margin-bottom: 1.5rem;;
+        margin-bottom: 1.5rem;
     }
+    .p-90 {
+        width: 90%;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 28rem) {
+
+    .navbar-brand {
+        font-size: .9rem !important;
+        margin-right: 0 !important;
+    }
+    #blog {
+        .card-height {
+            height: 25rem !important;
+        }
+    }
+    #past-event .img-con {
+        height: 15rem;
+    }
+    #donate {
+        margin-top: 119rem !important;
+
+        .btn-white {
+            width: 90% !important;
+        }
+    }
+    .p-90 {
+        width: 90%;
+        text-align: center !important;
+
+    }
+    #what-we-do {
+        height: 50rem !important;
+    }
+      #what-we-do .highlight {
+        height: 98rem !important;
+    }
+
+    #main-footer {
+        padding: 1rem !important;
+    }
+  
+    
 }
 
 </style>

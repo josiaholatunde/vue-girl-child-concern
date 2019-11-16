@@ -2,7 +2,7 @@
      <section id="what-we-do" class="mt-n5">
           <div class="container h-100 flex-center">
             <div  class="divider"> </div>
-            <p class="my-5 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt aperiam suscipit consequatur nemo amet officia atque odio doloribus. Repellat debitis aspernatur explicabo. Vel, 
+            <p class="my-5 text-center p-90">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt aperiam suscipit consequatur nemo amet officia atque odio doloribus. Repellat debitis aspernatur explicabo. Vel, 
               voluptates aliquid in fugiat exercitationem praesentium.
             </p>
             <div class="divider"> </div>
@@ -14,13 +14,13 @@
             <div class="img-overlay">
               <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
                 <h3 class="text-white">What We do</h3>
-                <p class="text-muted">
+                <p class="text-muted p-90">
                     GCC’s set objectives are met through strategic projects
                 </p>
               </div>
               <div class="highlight container p-unique">
                 <div class="row">
-                  <div class="col-md-4 col-sm-6">
+                  <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="d-flex">
                       <i class="fa fa-heart fa-2x text-primary"></i>
                       <div class="ml-3">
@@ -33,7 +33,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-6">
+                  <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="d-flex">
                           <i class="fa fa-heart fa-2x text-primary"></i>
                           <div class="ml-3">
@@ -46,7 +46,7 @@
                           </div>
                         </div>
                   </div>
-                  <div class="col-md-4 col-sm-6 mt-sm-0">
+                  <div class="col-lg-4 col-md-6 col-sm-12 mt-md-0 mt-sm-5">
                       <div class="d-flex">
                           <i class="fa fa-heart fa-2x text-primary"></i>
                           <div class="ml-3">
@@ -59,7 +59,7 @@
                           </div>
                         </div>
                   </div>
-                  <div class="col-md-6 mt-5 col-sm-6 mt-sm-6">
+                  <div class="col-lg-4 col-md-6 mt-md-5 col-sm-12 mt-sm-6">
                       <div class="d-flex">
                           <i class="fa fa-heart fa-2x text-primary"></i>
                           <div class="ml-3">
@@ -73,7 +73,7 @@
                         </div>
                   </div>
 
-                  <div class="col-md-6 mt-5 col-sm-6">
+                  <div class="col-lg-4 col-md-6 mt-md-5 col-sm-12">
                       <div class="d-flex">
                           <i class="fa fa-heart fa-2x text-primary"></i>
                           <div class="ml-3">
@@ -112,7 +112,7 @@
 }
 
 #what-we-do .highlight {
-    height: 40rem;
+    height: 45rem;
     background: #fff;
     /* box-shadow: 2px 2px 5px #333; */
     width: 60%;
