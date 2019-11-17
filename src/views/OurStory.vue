@@ -1,5 +1,5 @@
 <template>
-     <div class="w-100 h-100">
+     <div class="w-100 h-100 text-justify">
          <section id="contact-img-header">
             <div class="container text-white h-100 w-100 d-flex upper align-items-center">
                 Our Story
@@ -20,7 +20,7 @@
           </div>
       </section>
 
-      <section id="mission-gri" class="bg-maroon">
+      <section id="mission-gri" >
           <div class="container h-100">
               <div class="d-flex h-100 justify-content-center text-center align-items-center">
                     <div> 

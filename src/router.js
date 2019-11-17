@@ -5,6 +5,8 @@ import Blog from './views/Blog.vue'
 import Leadership from './views/Leadership.vue'
 import OurStory from './views/OurStory.vue'
 import ContactUs from './views/ContactUs.vue'
+import Volunteer from './views/Volunteer.vue'
+
 
 
 
@@ -31,6 +33,10 @@ const routes = [
     {
         path: '/contact-us',
         component: ContactUs
+    },
+    {
+        path: '/volunteer',
+        component: Volunteer
     },
 ]
 

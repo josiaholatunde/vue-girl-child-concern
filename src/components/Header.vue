@@ -45,7 +45,7 @@
                           </div>
                  </li>
                  <li class="nav-item">
-                    <a class="nav-link" href="#">Get Involved</a>
+                    <router-link tag="a" to="/volunteer" class="nav-link" >Get Involved</router-link>
                  </li>
                  <li class="nav-item">
                      <router-link tag='a' class="nav-link" to="/contact-us">Contact Us</router-link>

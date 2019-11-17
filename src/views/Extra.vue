@@ -47,7 +47,7 @@
                       Borno state governor, Prof. Babagana Umara Zulum has appointed Alh. Jidda Usman Shuwa as new secretary to the state government,…
                   </div>
                   <div class="card-actions mt-3">
-                      <button class="btn btn-md btn-primary">Read More</button>
+                      <router-link tag="button" to="/blog" class="btn btn-md btn-primary">Read More</router-link>
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@
                           Borno state governor, Prof. Babagana Umara Zulum has appointed Alh. Jidda Usman Shuwa as new secretary to the state government,…
                       </div>
                       <div class="card-actions mt-3">
-                          <button class="btn btn-md btn-primary">Read More</button>
+                          <router-link tag="button" to="/blog" class="btn btn-md btn-primary">Read More</router-link>
                       </div>
                     </div>
                   </div>
@@ -79,7 +79,7 @@
                           Borno state governor, Prof. Babagana Umara Zulum has appointed Alh. Jidda Usman Shuwa as new secretary to the state government,…
                       </div>
                       <div class="card-actions mt-3">
-                          <button class="btn btn-md btn-primary">Read More</button>
+                          <router-link tag="button" to="/blog" class="btn btn-md btn-primary">Read More</router-link>
                       </div>
                     </div>
                   </div>

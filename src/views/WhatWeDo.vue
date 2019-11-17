@@ -25,7 +25,7 @@
                       <i class="fa fa-heart fa-2x text-primary"></i>
                       <div class="ml-3">
                         <h4>
-                            Female Student Scholarship Scheme
+                            Food security and livelihood
                         </h4>
                         <p  class="content-desc mt-3">
                             Female Student Scholarship SchemeThis project aims at giving girls opportunities to attain the highest level of educational pursuits in their lives without financial constraints.
@@ -38,7 +38,7 @@
                           <i class="fa fa-heart fa-2x text-primary"></i>
                           <div class="ml-3">
                             <h4>
-                                Female Student Scholarship Scheme
+                                Health and nutrition
                             </h4>
                             <p  class="content-desc mt-3">
                                 Female Student Scholarship SchemeThis project aims at giving girls opportunities to attain the highest level of educational pursuits in their lives without financial constraints.
@@ -51,7 +51,7 @@
                           <i class="fa fa-heart fa-2x text-primary"></i>
                           <div class="ml-3">
                             <h4>
-                                Female Student Scholarship Scheme
+                                Water and sanitation
                             </h4>
                             <p  class="content-desc mt-3">
                                 Female Student Scholarship SchemeThis project aims at giving girls opportunities to attain the highest level of educational pursuits in their lives without financial constraints.
@@ -64,7 +64,7 @@
                           <i class="fa fa-heart fa-2x text-primary"></i>
                           <div class="ml-3">
                             <h4>
-                                Female Student Scholarship Scheme
+                                Skill acquisition
                             </h4>
                             <p  class="content-desc mt-3">
                                 Female Student Scholarship SchemeThis project aims at giving girls opportunities to attain the highest level of educational pursuits in their lives without financial constraints.
@@ -78,7 +78,21 @@
                           <i class="fa fa-heart fa-2x text-primary"></i>
                           <div class="ml-3">
                             <h4>
-                                Female Student Scholarship Scheme
+                                Community outreach program
+                            </h4>
+                            <p  class="content-desc mt-3">
+                                Female Student Scholarship SchemeThis project aims at giving girls opportunities to attain the highest level of educational pursuits in their lives without financial constraints.
+                            </p>
+                          </div>
+                        </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 mt-md-5 col-sm-12">
+                      <div class="d-flex">
+                          <i class="fa fa-heart fa-2x text-primary"></i>
+                          <div class="ml-3">
+                            <h4>
+                                Give back program
                             </h4>
                             <p  class="content-desc mt-3">
                                 Female Student Scholarship SchemeThis project aims at giving girls opportunities to attain the highest level of educational pursuits in their lives without financial constraints.

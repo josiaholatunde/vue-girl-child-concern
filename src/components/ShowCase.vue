@@ -10,22 +10,22 @@
                       <div class="carousel-item active img-container">
                         <img src="../assets/img/img1.jpg" class="d-block w-100 h-100 img-fluid img-style" alt="...">
                         <div class="carousel-caption">
-                          <h5 class="upper">Opening the door to education, creating space for change</h5>
-                          <a class="btn btn-md btn-primary show-case-btn ">Donate Now</a>
+                          <h5 class="upper">Empower targeted communities through skill acquisition and startup grant</h5>
+                          <router-link tag="a" to="/contact-us" class="btn btn-md btn-primary show-case-btn">Donate Now</router-link>
                         </div>
                       </div>
                       <div class="carousel-item img-container">
                         <img src="../assets/img/img2.jpg" class="d-block w-100 h-100 img-style" alt="...">
                         <div class="carousel-caption">
-                          <h5>We build strength and stability by providing basic education</h5>
-                          <a class="btn btn-md btn-primary show-case-btn ">Donate Now</a>
+                          <h5>Reduce the high rate of child mortality </h5>
+                          <router-link tag="a" to="/contact-us" class="btn btn-md btn-primary show-case-btn ">Donate Now</router-link>
                         </div>
                       </div>
                       <div class="carousel-item img-container">
                         <img src="../assets/img/img3.jpg" class="d-block w-100 h-100 img-style" alt="...">
                         <div class="carousel-caption">
                           <h5>Support GRI change lives with a donation</h5>
-                          <a class="btn btn-md btn-primary show-case-btn ">Donate Now</a>
+                          <router-link tag="a" to="/contact-us" class="btn btn-md btn-primary show-case-btn ">Donate Now</router-link>
                         </div>
                       </div>
                     </div>

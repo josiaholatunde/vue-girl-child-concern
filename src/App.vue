@@ -124,6 +124,24 @@ body {
     width: 100%;
 }
 
+
+#contact-img-header {
+    height: 15rem;
+    background:  rgba(10,10,10,0.2) url('./assets/img/img3.jpg') center center/cover  no-repeat;
+    width: 100%;
+    
+
+}
+#contact-img-header div {
+    font-size: 2.5rem;    
+     
+}
+
+#google-map {
+    height: 20rem;
+    width: 100%;
+}
+
 #show-case-slider .carousel-caption {
     bottom: 20% !important;
 }
@@ -257,6 +275,15 @@ body {
     padding: 2rem;
     width: 100%;
     background: red;
+}
+
+.circle-values {
+    height: 4rem;
+    width: 7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #copyright {
@@ -527,7 +554,7 @@ body {
     }
 
     .carousel-caption h5 {
-        font-size: 2rem !important;
+        font-size: 1.6rem !important;
         line-height: 1.4;
     }
  
@@ -592,11 +619,18 @@ body {
             height: 25rem !important;
         }
     }
+    #past-event {
+        padding: 1rem !important;
+    }
     #past-event .img-con {
         height: 15rem;
     }
     #donate {
         margin-top: 119rem !important;
+
+        div > h3 {
+            font-size: 1.35rem;
+        }
 
         .btn-white {
             width: 90% !important;
@@ -607,6 +641,10 @@ body {
         text-align: center !important;
 
     }
+
+    .text-sm-center {
+        text-align: left !important;
+    }
     #what-we-do {
         height: 50rem !important;
     }
@@ -614,9 +652,106 @@ body {
         height: 98rem !important;
     }
 
+    #show-case {
+        padding: 1rem !important;
+        text-align: justify;
+    }
+
     #main-footer {
+        padding: 0rem !important;
+    }
+    .padd-1 {
         padding: 1rem !important;
     }
+
+    #blog-posts {
+        padding: 0rem !important;
+        margin-top: 1rem !important;
+    }
+     #mission-gri  {
+         height: 30rem !important;
+         margin-top: 3rem !important;
+         margin-bottom: 2rem !important;
+     }
+    #mission-gri .container > div {
+        display: flex;
+        flex-direction: column;
+        div {
+            margin-bottom: 1rem;
+        }
+    }
+    #objectives {
+        height: 29rem !important;
+    }
+
+    #partners {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: justify;
+    }
+
+    #contact-img-header div {
+    font-size: 2.2rem;    
+    padding-left: 1.4rem;
+     
+    }
+    .form-blog {
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+    .p-info__last-name {
+        margin-top: 1rem;
+    }
+    .blog-con {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer-header {
+        margin-top: 1rem !important;
+    }
+
+    #contact-us  {
+        .container {
+            padding: 1rem !important;
+
+            h3 {
+                font-size: 1.2rem;
+            }
+            h4 {
+                font-size: 1rem;
+            }
+        }
+
+    }
+    #contact-us .card-body {
+        padding: 1rem !important;
+    }
+
+    #contact-us .office-details, #contact-us  .email {
+        padding-left: 0 !important;
+    }
+
+    .flex-row-sm {
+        display: flex;
+        flex-direction: column !important;
+        .circle-values  {
+            height: 4rem;
+            width: 4rem;
+            margin-right: 0 !important;
+        }
+        .text-sm-center {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        
+    }
+
+    .volunteer h3 {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
   
     
 }

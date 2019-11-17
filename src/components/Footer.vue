@@ -1,6 +1,6 @@
 <template>
     <div class="w-100 h-100">
-        <section id="main-footer " class="bg-primary  text-grey p-5">
+        <section id="main-footer " class="bg-primary padd-1 text-grey p-5 p-sm-3">
         <div class="container">
           <div class="row">
               <div class="col-md-3">
@@ -8,7 +8,7 @@
                       <img src="../assets/img/images.png" class="img-fluid" height="30" width="30" />
                       Global Relief Initiative
                   </div>
-                  <p class="mt-5 b-400 ">
+                  <p class="mt-5 b-400 footer-header">
                       Global Relief Initiative (GRI) is a registered non-profit organization in Nigeria, dedicated to providing affected communities with opportunity to enhance their living standard
                   </p>
                 </div>
