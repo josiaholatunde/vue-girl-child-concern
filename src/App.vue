@@ -626,7 +626,7 @@ body {
         height: 15rem;
     }
     #donate {
-        margin-top: 119rem !important;
+        margin-top: 121rem !important;
 
         div > h3 {
             font-size: 1.35rem;
@@ -649,7 +649,7 @@ body {
         height: 50rem !important;
     }
       #what-we-do .highlight {
-        height: 98rem !important;
+        height: 106rem !important;
     }
 
     #show-case {
@@ -740,8 +740,12 @@ body {
             margin-right: 0 !important;
         }
         .text-sm-center {
-            text-align: center;
+            text-align: center !important;
             margin-top: 1rem;
+
+            h3 {
+                font-size: 1.6rem;
+            }
         }
         
     }
