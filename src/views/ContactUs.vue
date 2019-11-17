@@ -5,10 +5,9 @@
                 Contact Us
             </div>
       </section>
-
-      <section id="google-map" class="mt-3">
-            
-      </section>
+      <div class="text-center mt-5" :class="successMsg ? 'text-success': 'text-danger'" v-if="successMsg || errorMsg">
+                    {{ errorMsg || successMsg }}
+        </div>
       <section id="contact-us">
         <div class="container p-5 pl-0">
             <div class="row">
@@ -17,22 +16,22 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label class="form-label">Name (required)</label>
-                                <input type="text" name="name" id="name" class="form-control">
+                                <input type="text" name="name" id="name" class="form-control" v-model.trim='name'>
                             </div>
                             <div class="form-group">
                                     <label class="form-label">Email</label>
-                                    <input type="email" name="name" id="name" class="form-control">
+                                    <input type="email" name="name" id="name" class="form-control" v-model.trim='email'>
                             </div>
                             <div class="form-group">
                                     <label class="form-label">Subject</label>
-                                    <input type="text" name="name" id="name" class="form-control">
+                                    <input type="text" name="name" id="name" class="form-control" v-model.trim='subject'>
                             </div>
                             <div class="form-group">
                                     <label class="form-label">Message</label>
-                                   <textarea class='form-control' name="message" rows="7">
+                                   <textarea class='form-control' name="message" rows="7" v-model.trim='message'>
                                     </textarea>
                             </div>
-                            <button class="btn btn-primary btn-block mt-5 btn-lg">
+                            <button class="btn btn-primary btn-block mt-5 btn-lg" @click='contactUs'>
                                 Send
                             </button>
                         </div>
@@ -98,8 +97,33 @@
 export default {
    name: 'ContactUs',
    data() {
-       return {}
+       return {
+           name: '',
+           email: '',
+           subject: '',
+           message: '',
+           errorMsg: '',
+           successMsg: ''
+       }
    },
+   methods: {
+       contactUs() {
+           if (!this.name || !this.email || !this.subject || !this.message) {
+               this.errorMsg = 'Please fill in all the required fields';
+               return;
+           }
+           this.errorMsg = ''
+           this.successMsg = 'Thanks for contacting us. You would reached shortly via email';
+
+           setTimeout(this.clearInput, 5000)
+       },
+       clearInput() {
+           this.name = '';
+           this.email = '';
+           this.subject = '';
+           this.message = '';
+       }
+   }
 }
 </script>
 <style scoped>

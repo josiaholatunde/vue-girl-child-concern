@@ -6,6 +6,7 @@ import Leadership from './views/Leadership.vue'
 import OurStory from './views/OurStory.vue'
 import ContactUs from './views/ContactUs.vue'
 import Volunteer from './views/Volunteer.vue'
+import OurTeam from './views/OurTeam.vue'
 
 
 
@@ -15,7 +16,7 @@ Vue.use(VueRouter);
 
 const routes = [
     {
-        path: '',
+        path: '/',
         component: Home
     },
     {
@@ -38,6 +39,15 @@ const routes = [
         path: '/volunteer',
         component: Volunteer
     },
+    {
+        path: '/our-team',
+        component: OurTeam
+    },
+
+    {
+        path: '*',
+        redirect: '/'
+    }
 ]
 
 const router = new VueRouter({

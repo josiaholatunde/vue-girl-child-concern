@@ -136,6 +136,9 @@ body {
     font-size: 2.5rem;    
      
 }
+ .text-sm-center { 
+     text-align: left !important;
+ }
 
 #google-map {
     height: 20rem;
@@ -642,9 +645,7 @@ body {
 
     }
 
-    .text-sm-center {
-        text-align: left !important;
-    }
+
     #what-we-do {
         height: 50rem !important;
     }
@@ -667,6 +668,7 @@ body {
     #blog-posts {
         padding: 0rem !important;
         margin-top: 1rem !important;
+         margin-bottom: 2rem !important;
     }
      #mission-gri  {
          height: 30rem !important;
@@ -696,18 +698,27 @@ body {
      
     }
     .form-blog {
-        padding-left: 0 !important;
         margin-left: 0 !important;
     }
     .p-info__last-name {
         margin-top: 1rem;
     }
-    .blog-con {
-        padding-left: 0;
-        padding-right: 0;
-    }
+
     .footer-header {
         margin-top: 1rem !important;
+    }
+
+    .post-container .date, .post-container .author {
+        font-size: .8rem;
+    }
+
+    .recent-posts ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 1rem;
+        }
     }
 
     #contact-us  {
@@ -748,6 +759,10 @@ body {
             }
         }
         
+    }
+
+    .team-img-con {
+        width: 100%;
     }
 
     .volunteer h3 {

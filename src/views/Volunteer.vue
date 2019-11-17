@@ -51,18 +51,21 @@
                  </div>
                  <div class="col-md-6">
                      <h3 class="text-left">BECOME A VOLUNTEER</h3>
+                     <span class="text-center mt-5" :class="successMsg ? 'text-success': 'text-danger'" v-if="successMsg || errorMsg">
+                                {{ errorMsg || successMsg }}
+                    </span>
                      <form @submit.prevent="submit">
                          <div class="form-group">
                              <label for="name">Name*</label>
-                             <input type="text" name="name" class="form-control" >
+                             <input type="text" name="name" class="form-control" v-model.trim='name' >
                          </div>
                           <div class="form-group">
                              <label for="name">Email*</label>
-                             <input type="email" name="email" class="form-control" >
+                             <input type="email" name="email" class="form-control" v-model.trim='email' >
                          </div>
                           <div class="form-group">
                              <label for="name">Phone Number*</label>
-                             <input type="text" name="phone" class="form-control" >
+                             <input type="text" name="phone" class="form-control" v-model.trim='phoneNumber'>
                          </div>
                           <div class="form-group">
                              <label for="name">Address</label>
@@ -91,8 +94,30 @@
 <script>
 export default {
   name: "Volunteer",
+  data() {
+      return {
+          name: '',
+          email: '',
+          phoneNumber: '',
+          errorMsg: '',
+          successMsg: ''
+      }
+  },
   methods: {
-      submit(){}
+      submit(){
+          if (!this.name || !this.email || !this.phoneNumber) {
+              this.errorMsg = 'Please fill in all the required fields'
+              return;
+          }
+          this.errorMsg = '';
+          this.successMsg = 'Thanks for volunteering. We would contact you via email'
+          setTimeout(this.clearInput, 5000)
+      },
+      clearInput() {
+          this.name = '';
+          this.email = '';
+          this.phoneNumber = ''
+      }
   }
 };
 </script>

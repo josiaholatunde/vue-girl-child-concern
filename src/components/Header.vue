@@ -22,7 +22,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <router-link tag='a' class="dropdown-item" to="/our-story">Our Story</router-link>
                         <router-link class="dropdown-item" tag='a' to="/leadership">Leadership</router-link>
-                        <a class="dropdown-item" href="#">Our Team</a>
+                        <router-link tag="a" class="dropdown-item" to="/our-team">Our Team</router-link>
                         <a class="dropdown-item" href="#">FAQ</a>
                     </div>
                 </li>
@@ -50,7 +50,7 @@
                  <li class="nav-item">
                      <router-link tag='a' class="nav-link" to="/contact-us">Contact Us</router-link>
                 </li>
-                 <button class="btn btn-primary mr-5 my-sm-0 donate-btn btn-nav" type="submit">Donate</button>
+                 <router-link tag="button" to="/contact-us" class="btn btn-primary mr-5 my-sm-0 donate-btn btn-nav" type="submit">Donate</router-link>
             </ul>
             </div>
        </div>

@@ -27,7 +27,7 @@
         
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">
-                <button class="btn btn-join upper text-center">Join us now</button>
+                <router-link tag="button" to="/volunteer" class="btn btn-join upper text-center">Join us now</router-link>
               </div>
           </div>
         </div>
