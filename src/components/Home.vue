@@ -2,7 +2,7 @@
   <div class="hello">
     <ShowCase />
     <WhatWeDo />
-    <Partners />
+    <!-- <Partners /> -->
     <Extra />
   </div>
 </template>
@@ -10,7 +10,7 @@
 <script>
 import ShowCase from './ShowCase.vue'
 import WhatWeDo from '../views/WhatWeDo.vue'
-import Partners from '../views/Partners.vue'
+// import Partners from '../views/Partners.vue'
 import Extra from '../views/Extra.vue'
 
 
@@ -19,7 +19,7 @@ export default {
   components: {
     ShowCase,
     WhatWeDo,
-    Partners,
+    // Partners,
     Extra
   }
 }

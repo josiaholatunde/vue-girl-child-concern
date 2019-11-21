@@ -16,32 +16,103 @@
                      <h3 class="text-center mt-3">Our Great Team</h3>
                      <div class="leaders-container text-center row">
                        <div class="flex-con col-lg-3 col-md-4 col-sm-6">
-                             <div class="team-img-con">
+                             <!-- <div class="team-img-con">
                              <img src="../assets/img/get_start.jpg" class="img-fluid" />
                             </div>
-                         <h5>Amina Inuwa</h5>
+                         <h5>Amina Inuwa</h5> -->
                          <h6 class="text-primary">Executive Director</h6>
                        </div>
                         <div class="flex-con col-lg-3 col-md-4 col-sm-6">
-                             <div class="team-img-con">
+                             <!-- <div class="team-img-con">
                              <img src="../assets/img/get_start.jpg" class="img-fluid" />
                             </div>
-                         <h5>Amina Inuwa</h5>
+                         <h5>Amina Inuwa</h5> -->
                          <h6 class="text-primary">Monitoring, Evaluation and Learning Advisor</h6>
                        </div>
                         <div class="flex-con col-lg-3 col-md-4 col-sm-6">
-                             <div class="team-img-con">
+                             <!-- <div class="team-img-con">
                              <img src="../assets/img/get_start.jpg" class="img-fluid" />
                             </div>
-                         <h5>Etim Immanuel</h5>
+                         <h5>Etim Immanuel</h5> -->
                          <h6 class="text-primary">Finance Coordinator</h6>
                        </div>
                         <div class="flex-con col-lg-3 col-md-4 col-sm-6">
-                             <div class="team-img-con">
+                             <!-- <div class="team-img-con">
                              <img src="../assets/img/get_start.jpg" class="img-fluid" />
                             </div>
-                         <h5> Aniekwe Chisom</h5>
+                         <h5> Aniekwe Chisom</h5> -->
                          <h6 class="text-primary">Project Manager</h6>
+                       </div>
+
+                         <div class="flex-con col-lg-3 col-md-4 col-sm-6">
+                             <!-- <div class="team-img-con">
+                             <img src="../assets/img/get_start.jpg" class="img-fluid" />
+                            </div>
+                         <h5> Aniekwe Chisom</h5> -->
+                         <h6 class="text-primary">Meal Advisor</h6>
+                       </div>
+
+                        <div class="flex-con col-lg-3 col-md-4 col-sm-6">
+                             <!-- <div class="team-img-con">
+                             <img src="../assets/img/get_start.jpg" class="img-fluid" />
+                            </div>
+                         <h5> Aniekwe Chisom</h5> -->
+                         <h6 class="text-primary">Administrative Manager</h6>
+                       </div>
+
+                        <div class="flex-con col-lg-3 col-md-4 col-sm-6">
+                             <!-- <div class="team-img-con">
+                             <img src="../assets/img/get_start.jpg" class="img-fluid" />
+                            </div>
+                         <h5> Aniekwe Chisom</h5> -->
+                         <h6 class="text-primary">Senior Program Officer</h6>
+                       </div>
+                         <div class="flex-con col-lg-3 col-md-4 col-sm-6">
+                             <!-- <div class="team-img-con">
+                             <img src="../assets/img/get_start.jpg" class="img-fluid" />
+                            </div>
+                         <h5> Aniekwe Chisom</h5> -->
+                         <h6 class="text-primary">Media Communication and Reporting Specialist</h6>
+                       </div>
+
+                        <div class="flex-con col-lg-3 col-md-4 col-sm-6">
+                             <!-- <div class="team-img-con">
+                             <img src="../assets/img/get_start.jpg" class="img-fluid" />
+                            </div>
+                         <h5> Aniekwe Chisom</h5> -->
+                         <h6 class="text-primary">Data Entry Clerk</h6>
+                       </div>
+
+                        <div class="flex-con col-lg-3 col-md-4 col-sm-6">
+                             <!-- <div class="team-img-con">
+                             <img src="../assets/img/get_start.jpg" class="img-fluid" />
+                            </div>
+                         <h5> Aniekwe Chisom</h5> -->
+                         <h6 class="text-primary">Enumerators</h6>
+                       </div>
+
+                         <div class="flex-con col-lg-3 col-md-4 col-sm-6">
+                             <!-- <div class="team-img-con">
+                             <img src="../assets/img/get_start.jpg" class="img-fluid" />
+                            </div>
+                         <h5> Aniekwe Chisom</h5> -->
+                         <h6 class="text-primary">Program Assistant</h6>
+                       </div>
+
+                        <div class="flex-con col-lg-3 col-md-4 col-sm-6">
+                             <!-- <div class="team-img-con">
+                             <img src="../assets/img/get_start.jpg" class="img-fluid" />
+                            </div>
+                         <h5> Aniekwe Chisom</h5> -->
+                         <h6 class="text-primary">Community Mobilizers</h6>
+                       </div>
+
+                        <div class="flex-con col-lg-3 col-md-4 col-sm-6">
+                             <!-- <div class="team-img-con">
+                             <img src="../assets/img/get_start.jpg" class="img-fluid" />
+                            </div>
+                         <h5> Aniekwe Chisom</h5> -->
+                         <h6 class="text-primary">Finance Officer</h6>
                        </div>
                      </div>
 

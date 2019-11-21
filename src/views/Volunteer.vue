@@ -85,6 +85,16 @@
                          </div>
                      </form>
                  </div>
+                <section id="questions" class="w-100 mt-3"> 
+                    <div class="container d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                        <h4 class="text-normal text-medium">
+                            Any Queries? Give Us a Call At 08113291866 <i class="fa fa-phone"></i>
+                        </h4>
+                        <p>We are always here for you ?</p>
+                        <router-link tag="button" to="/contact-us" class="btn btn-primary">CONTACT NOW</router-link>
+    
+                    </div>
+                </section>
              </div>
           </div>
       </section>

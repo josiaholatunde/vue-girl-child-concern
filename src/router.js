@@ -7,8 +7,7 @@ import OurStory from './views/OurStory.vue'
 import ContactUs from './views/ContactUs.vue'
 import Volunteer from './views/Volunteer.vue'
 import OurTeam from './views/OurTeam.vue'
-
-
+import FAQ from './views/FAQ.vue'
 
 
 Vue.use(VueRouter);
@@ -42,6 +41,10 @@ const routes = [
     {
         path: '/our-team',
         component: OurTeam
+    },
+    {
+        path: '/faq',
+        component: FAQ
     },
 
     {

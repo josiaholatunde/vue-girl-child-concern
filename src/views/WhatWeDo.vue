@@ -1,14 +1,13 @@
 <template>
-     <section id="what-we-do" class="mt-n5">
+     <section id="what-we-do">
           <div class="container h-100 flex-center">
             <div  class="divider"> </div>
-            <p class="my-5 text-center p-90">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt aperiam suscipit consequatur nemo amet officia atque odio doloribus. Repellat debitis aspernatur explicabo. Vel, 
-              voluptates aliquid in fugiat exercitationem praesentium.
+            <p class="my-5 text-center p-90">GRI was founded with the goal of addressing the livelihood of affected communities and households especially in the northern Nigeria. Global Relief Initiative has continuously sought ways of improving the lives of communities, household and IDPs in Nigeria with office situated in Abuja, Kogi, Adamawa and Maiduguri.
             </p>
             <div class="divider"> </div>
-            <div class="embed-responsive embed-responsive-16by9 border-md mt-5">
+            <!-- <div class="embed-responsive embed-responsive-16by9 border-md mt-5">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
-            </div>
+            </div> -->
           </div>
           <div class="img-container-2">
             <div class="img-overlay">

@@ -42,15 +42,11 @@
                     <div class="office-details pl-5">
                        <div class="detail-1">
                             <h4>Abuja Office</h4>
-                            <p class="text-light-grey">No. 5, Erie Close, off Erie Crescent, Maitama</p>
+                            <p class="text-light-grey">NO. 5 Daniyar Raiyat Street, off Jeremiah road Gwagwalada Abuja FCT</p>
                        </div>
                        <div class="detail-1">
-                            <h4>Abuja Office</h4>
-                            <p class="text-light-grey">No. 5, Erie Close, off Erie Crescent, Maitama</p>
-                       </div>
-                       <div class="detail-1">
-                            <h4>Abuja Office</h4>
-                            <p class="text-light-grey">No. 5, Erie Close, off Erie Crescent, Maitama</p>
+                            <h4>Kogi</h4>
+                            <p class="text-light-grey">NO. 13 Old GRA, by Nursing Home Maiduguri Borno State, Adun Estate behind CBN, off Stadium road, Lokoja Kogi State</p>
                        </div>
                     </div>
                     <div class="email pl-5">
@@ -59,19 +55,14 @@
                         </div>
                         <h4>Email us @</h4>
                         <span class="text-light-grey">
-                            info@rightconcern.org
+                          <a href="mailto:globalreliefinitiative@yahoo.com">
+                              globalreliefinitiative@yahoo.com
+                            </a>  
+                             <a href="mailto:globalreliefinitiative@gmail.com">
+                             Globalreliefinitiative@gmail.com
+                            </a>  
                         </span>
                     </div>
-
-                    <div class="email pl-5">
-                            <div class="message-icon my-3">
-                                <i class="fa fa-envelope fa-2x text-light-blue"></i>
-                            </div>
-                            <h4>Email us @</h4>
-                            <span class="text-light-grey">
-                                info@rightconcern.org
-                            </span>
-                        </div>
                 </div>
             </div>
             <div class="social-links text-center  mt-5"  >
@@ -143,4 +134,8 @@ export default {
     height: 20rem;
     width: 100%;
 }
+ a, a:active, a:hover {
+    color: #ccc;
+    text-decoration: none;
+  }
 </style>

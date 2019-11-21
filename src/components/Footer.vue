@@ -1,5 +1,5 @@
 <template>
-    <div class="w-100 h-100">
+    <div class="w-100 h-100 mt-2">
         <section id="main-footer " class="bg-primary padd-1 text-grey p-5 p-sm-3">
         <div class="container">
           <div class="row">
@@ -18,27 +18,31 @@
                     <div class="addresses">
                       <div class="address-1">
                         <h4>ABUJA: &nbsp;
-                            <span class="text-grey">No. 5, Erie Close, off Erie Crescent, Maitama</span>
+                            <span class="text-grey">NO. 5 Daniyar Raiyat Street, off Jeremiah road Gwagwalada Abuja FCT.</span>
                         </h4>
                       </div>
                       <div class="address-1 my-3">
-                          <h4 class="text-grey">ABUJA: &nbsp;
-                              <span>No. 5, Erie Close, off Erie Crescent, Maitama</span>
+                          <h4 class="text-grey">KOGI: &nbsp;
+                              <span>NO. 13 Old GRA, by Nursing Home Maiduguri Borno State, Adun Estate behind CBN, off Stadium road, Lokoja Kogi State</span>
                           </h4>
                         </div>
-                        <div class="address-1">
-                            <h4 class="text-grey"> ABUJA: &nbsp;
-                                <span>No. 5, Erie Close, off Erie Crescent, Maitama</span>
-                            </h4>
-                          </div>
                     </div>
                   </div>
                   <div class="col-md-3 header">
                     <h4>Email Or Call Us</h4>
                     <hr />
-                    <span class="text-wrap"> info@girlchildconcerns.org </span>
+                    <span class="text-wrap"> 
+                       <a href="mailto:globalreliefinitiative@yahoo.com">
+                        globalreliefinitiative@yahoo.com
+                      </a>
+                    </span>
+                    <span class="text-wrap"> 
+                      <a href="mailto:globalreliefinitiative@gmail.com">
+                        Globalreliefinitiative@gmail.com
+                      </a>
+                    </span>
                     <div class="phone">
-                      08131123149
+                      08038132205
                     </div>
                   </div>
                   <div class="col-md-3 header">
@@ -60,3 +64,10 @@
       </section>
     </div>
 </template>
+
+<style scoped>
+  a, a:active, a:hover {
+    color: #ccc;
+    text-decoration: none;
+  }
+</style>

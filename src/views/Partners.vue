@@ -5,7 +5,7 @@
           <h3>Change Lives With A Donation</h3>
           <span class="text-italic">Giving a donation can help us to reach more children transform their lives for the better.
           </span>
-          <button class="btn btn-white upper text-center  align-self-center my-3">Donate Now</button>
+          <router-link tag="button" to="/contact-us" class="btn btn-white upper text-center  align-self-center my-3">Donate Now</router-link>
         </div>
       </section>
 

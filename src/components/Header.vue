@@ -23,7 +23,7 @@
                         <router-link tag='a' class="dropdown-item" to="/our-story">Our Story</router-link>
                         <router-link class="dropdown-item" tag='a' to="/leadership">Leadership</router-link>
                         <router-link tag="a" class="dropdown-item" to="/our-team">Our Team</router-link>
-                        <a class="dropdown-item" href="#">FAQ</a>
+                        <router-link class="dropdown-item" to="/faq">FAQ</router-link>
                     </div>
                 </li>
                  <li class="nav-item dropdown">
@@ -44,8 +44,15 @@
                               <router-link tag='a' class="dropdown-item" to="/blog">Blog</router-link>
                           </div>
                  </li>
-                 <li class="nav-item">
-                    <router-link tag="a" to="/volunteer" class="nav-link" >Get Involved</router-link>
+                  <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Get Involved
+                              </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <router-link tag="a" to="/volunteer" class="nav-link" >Become a volunteer</router-link>
+                            <router-link tag="a" to="/volunteer" class="nav-link" >Friends of GRI</router-link>
+
+                          </div>
                  </li>
                  <li class="nav-item">
                      <router-link tag='a' class="nav-link" to="/contact-us">Contact Us</router-link>
