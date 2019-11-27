@@ -18,12 +18,17 @@
                     <div class="addresses">
                       <div class="address-1">
                         <h4>ABUJA: &nbsp;
-                            <span class="text-grey">NO. 5 Daniyar Raiyat Street, off Jeremiah road Gwagwalada Abuja FCT.</span>
+                            <span class="text-grey">NO. 5 Daniyar Raiyat Street, off Jeremiah road Gwagwalada, Abuja FCT.</span>
                         </h4>
                       </div>
                       <div class="address-1 my-3">
-                          <h4 class="text-grey">KOGI: &nbsp;
-                              <span>NO. 13 Old GRA, by Nursing Home Maiduguri Borno State, Adun Estate behind CBN, off Stadium road, Lokoja Kogi State</span>
+                          <h4 class="text-grey">BORNO: &nbsp;
+                              <span>NO. 13 Old GRA, by Nursing Home Maiduguri, Borno State</span>
+                          </h4>
+                        </div>
+                       <div class="address-1 my-3">
+                          <h4 class="text-grey">Kogi: &nbsp;
+                              <span>Adun Estate behind CBN, off Stadium road, Lokoja, Kogi state </span>
                           </h4>
                         </div>
                     </div>
